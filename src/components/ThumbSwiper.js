@@ -25,12 +25,12 @@ export default () => {
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
-                className="mySwiper2"
+                className="mySwiper2 h-52"
             >
-                <SwiperSlide className='bg-red-700'>Slide 1</SwiperSlide>
-                <SwiperSlide className='bg-red-400'>Slide 2</SwiperSlide>
-                <SwiperSlide className='bg-purple-800'>Slide 3</SwiperSlide>
-                <SwiperSlide className='bg-slate-700'>Slide 4</SwiperSlide>
+                <SwiperSlide className='bg-red-700 h-full'>Slide 1</SwiperSlide>
+                <SwiperSlide className='bg-red-400 h-full'>Slide 2</SwiperSlide>
+                <SwiperSlide className='bg-purple-800 h-full'>Slide 3</SwiperSlide>
+                <SwiperSlide className='bg-slate-700 h-full'>Slide 4</SwiperSlide>
             </Swiper>
             <Swiper
                 onSwiper={setThumbsSwiper}
