@@ -40,6 +40,7 @@ export default () => {
                 watchSlidesProgress={true}
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper"
+                loop={true}
             >
                 <SwiperSlide className='bg-red-700 h-24'>Slide 1</SwiperSlide>
                 <SwiperSlide className='bg-red-400 h-24'>Slide 2</SwiperSlide>
