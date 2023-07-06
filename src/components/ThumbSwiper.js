@@ -41,10 +41,10 @@ export default () => {
                 modules={[FreeMode, Navigation, Thumbs]}
                 className="mySwiper"
             >
-                <SwiperSlide className='bg-red-700'>Slide 1</SwiperSlide>
-                <SwiperSlide className='bg-red-400'>Slide 2</SwiperSlide>
-                <SwiperSlide className='bg-purple-800'>Slide 3</SwiperSlide>
-                <SwiperSlide className='bg-slate-700'>Slide 4</SwiperSlide>
+                <SwiperSlide className='bg-red-700 h-24'>Slide 1</SwiperSlide>
+                <SwiperSlide className='bg-red-400 h-24'>Slide 2</SwiperSlide>
+                <SwiperSlide className='bg-purple-800 h-24'>Slide 3</SwiperSlide>
+                <SwiperSlide className='bg-slate-700 h-24'>Slide 4</SwiperSlide>
             </Swiper>
         </div>
     );
