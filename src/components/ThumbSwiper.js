@@ -16,7 +16,7 @@ export default () => {
 
     return (
         <div className='mx-auto w-2/4 h-52 flex'>
-            <div>
+            <div className='w-1/4'>
                 <Swiper
                     style={{
                         '--swiper-navigation-color': '#fff',
