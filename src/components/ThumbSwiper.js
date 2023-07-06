@@ -25,6 +25,7 @@ export default () => {
                 navigation={true}
                 thumbs={{ swiper: thumbsSwiper }}
                 modules={[FreeMode, Navigation, Thumbs]}
+                slidesPerView={1}
                 className="mySwiper2 h-52"
             >
                 <SwiperSlide className='bg-red-700 h-52'>Slide 1</SwiperSlide>
@@ -35,7 +36,7 @@ export default () => {
             <Swiper
                 onSwiper={setThumbsSwiper}
                 spaceBetween={10}
-                slidesPerView={4}
+                slidesPerView={1}
                 freeMode={true}
                 watchSlidesProgress={true}
                 modules={[FreeMode, Navigation, Thumbs]}
